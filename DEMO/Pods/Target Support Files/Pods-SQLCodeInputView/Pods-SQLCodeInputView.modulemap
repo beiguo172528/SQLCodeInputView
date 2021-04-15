@@ -1,0 +1,6 @@
+framework module Pods_SQLCodeInputView {
+  umbrella header "Pods-SQLCodeInputView-umbrella.h"
+
+  export *
+  module * { export * }
+}

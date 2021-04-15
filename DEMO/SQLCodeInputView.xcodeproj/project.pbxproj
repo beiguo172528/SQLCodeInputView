@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31158525BBFE0A49D54BB760 /* Pods_SQLCodeInputViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DE9436DBBD161157B5384E /* Pods_SQLCodeInputViewTests.framework */; };
+		6353C36A70B4A2F0754D35DC /* Pods_SQLCodeInputView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB48AAF76C32186F1D65CB7D /* Pods_SQLCodeInputView.framework */; };
+		AA4B7919941626A05676CEF1 /* Pods_SQLCodeInputView_SQLCodeInputViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C32C9085A36DEABCAD05641 /* Pods_SQLCodeInputView_SQLCodeInputViewUITests.framework */; };
+		C7A617582628277300027A58 /* del.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A6174D2628277300027A58 /* del.png */; };
+		C7A617592628277300027A58 /* NSBundle+DFBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A6174F2628277300027A58 /* NSBundle+DFBundle.m */; };
+		C7A6175A2628277300027A58 /* SQLInputButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A617502628277300027A58 /* SQLInputButton.m */; };
+		C7A6175B2628277300027A58 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A617522628277300027A58 /* Utils.m */; };
+		C7A6175C2628277300027A58 /* SQLCodeInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A617532628277300027A58 /* SQLCodeInputView.m */; };
+		C7A6175D2628277300027A58 /* SQLBtnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A617562628277300027A58 /* SQLBtnsView.m */; };
+		C7A6175E2628277300027A58 /* SQLInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A617572628277300027A58 /* SQLInputView.m */; };
+		C7B4AE662626CDDE00F427F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4AE652626CDDE00F427F3 /* AppDelegate.m */; };
+		C7B4AE692626CDDE00F427F3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4AE682626CDDE00F427F3 /* SceneDelegate.m */; };
+		C7B4AE6C2626CDDE00F427F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4AE6B2626CDDE00F427F3 /* ViewController.m */; };
+		C7B4AE6F2626CDDE00F427F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B4AE6D2626CDDE00F427F3 /* Main.storyboard */; };
+		C7B4AE712626CDDF00F427F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7B4AE702626CDDF00F427F3 /* Assets.xcassets */; };
+		C7B4AE742626CDDF00F427F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B4AE722626CDDF00F427F3 /* LaunchScreen.storyboard */; };
+		C7B4AE772626CDDF00F427F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4AE762626CDDF00F427F3 /* main.m */; };
+		C7B4AE812626CDE000F427F3 /* SQLCodeInputViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4AE802626CDE000F427F3 /* SQLCodeInputViewTests.m */; };
+		C7B4AE8C2626CDE000F427F3 /* SQLCodeInputViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4AE8B2626CDE000F427F3 /* SQLCodeInputViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7B4AE7D2626CDE000F427F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7B4AE592626CDDE00F427F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7B4AE602626CDDE00F427F3;
+			remoteInfo = SQLCodeInputView;
+		};
+		C7B4AE882626CDE000F427F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7B4AE592626CDDE00F427F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7B4AE602626CDDE00F427F3;
+			remoteInfo = SQLCodeInputView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11DE9436DBBD161157B5384E /* Pods_SQLCodeInputViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLCodeInputViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FCB4A50DEF2F41E934095A /* Pods-SQLCodeInputView-SQLCodeInputViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLCodeInputView-SQLCodeInputViewUITests.release.xcconfig"; path = "Target Support Files/Pods-SQLCodeInputView-SQLCodeInputViewUITests/Pods-SQLCodeInputView-SQLCodeInputViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2F7F6C15C2F36603C40282C4 /* Pods-SQLCodeInputView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLCodeInputView.release.xcconfig"; path = "Target Support Files/Pods-SQLCodeInputView/Pods-SQLCodeInputView.release.xcconfig"; sourceTree = "<group>"; };
+		4CE6866CA033B94EA06F7DC8 /* Pods-SQLCodeInputViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLCodeInputViewTests.release.xcconfig"; path = "Target Support Files/Pods-SQLCodeInputViewTests/Pods-SQLCodeInputViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		6293BBC2A12FD1B6FD0845F5 /* Pods-SQLCodeInputView-SQLCodeInputViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLCodeInputView-SQLCodeInputViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-SQLCodeInputView-SQLCodeInputViewUITests/Pods-SQLCodeInputView-SQLCodeInputViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C32C9085A36DEABCAD05641 /* Pods_SQLCodeInputView_SQLCodeInputViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLCodeInputView_SQLCodeInputViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83337741C9BA976C61AC8DF4 /* Pods-SQLCodeInputView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLCodeInputView.debug.xcconfig"; path = "Target Support Files/Pods-SQLCodeInputView/Pods-SQLCodeInputView.debug.xcconfig"; sourceTree = "<group>"; };
+		BB48AAF76C32186F1D65CB7D /* Pods_SQLCodeInputView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLCodeInputView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B9C60A677AEC034B786570 /* Pods-SQLCodeInputViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLCodeInputViewTests.debug.xcconfig"; path = "Target Support Files/Pods-SQLCodeInputViewTests/Pods-SQLCodeInputViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7A6174A2628277300027A58 /* SQLCodeInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLCodeInputView.h; sourceTree = "<group>"; };
+		C7A6174B2628277300027A58 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		C7A6174D2628277300027A58 /* del.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = del.png; sourceTree = "<group>"; };
+		C7A6174E2628277300027A58 /* SQLBtnsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLBtnsView.h; sourceTree = "<group>"; };
+		C7A6174F2628277300027A58 /* NSBundle+DFBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+DFBundle.m"; sourceTree = "<group>"; };
+		C7A617502628277300027A58 /* SQLInputButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLInputButton.m; sourceTree = "<group>"; };
+		C7A617512628277300027A58 /* SQLInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLInputView.h; sourceTree = "<group>"; };
+		C7A617522628277300027A58 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		C7A617532628277300027A58 /* SQLCodeInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLCodeInputView.m; sourceTree = "<group>"; };
+		C7A617542628277300027A58 /* SQLInputButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLInputButton.h; sourceTree = "<group>"; };
+		C7A617552628277300027A58 /* NSBundle+DFBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+DFBundle.h"; sourceTree = "<group>"; };
+		C7A617562628277300027A58 /* SQLBtnsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLBtnsView.m; sourceTree = "<group>"; };
+		C7A617572628277300027A58 /* SQLInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLInputView.m; sourceTree = "<group>"; };
+		C7B4AE612626CDDE00F427F3 /* SQLCodeInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLCodeInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B4AE642626CDDE00F427F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7B4AE652626CDDE00F427F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7B4AE672626CDDE00F427F3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C7B4AE682626CDDE00F427F3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C7B4AE6A2626CDDE00F427F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7B4AE6B2626CDDE00F427F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7B4AE6E2626CDDE00F427F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7B4AE702626CDDF00F427F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7B4AE732626CDDF00F427F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7B4AE752626CDDF00F427F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7B4AE762626CDDF00F427F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7B4AE7C2626CDE000F427F3 /* SQLCodeInputViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLCodeInputViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B4AE802626CDE000F427F3 /* SQLCodeInputViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLCodeInputViewTests.m; sourceTree = "<group>"; };
+		C7B4AE822626CDE000F427F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7B4AE872626CDE000F427F3 /* SQLCodeInputViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLCodeInputViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B4AE8B2626CDE000F427F3 /* SQLCodeInputViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLCodeInputViewUITests.m; sourceTree = "<group>"; };
+		C7B4AE8D2626CDE000F427F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7B4AE5E2626CDDE00F427F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6353C36A70B4A2F0754D35DC /* Pods_SQLCodeInputView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B4AE792626CDE000F427F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31158525BBFE0A49D54BB760 /* Pods_SQLCodeInputViewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B4AE842626CDE000F427F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4B7919941626A05676CEF1 /* Pods_SQLCodeInputView_SQLCodeInputViewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		329B85E9F4AFC0E42CC92604 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83337741C9BA976C61AC8DF4 /* Pods-SQLCodeInputView.debug.xcconfig */,
+				2F7F6C15C2F36603C40282C4 /* Pods-SQLCodeInputView.release.xcconfig */,
+				6293BBC2A12FD1B6FD0845F5 /* Pods-SQLCodeInputView-SQLCodeInputViewUITests.debug.xcconfig */,
+				25FCB4A50DEF2F41E934095A /* Pods-SQLCodeInputView-SQLCodeInputViewUITests.release.xcconfig */,
+				C3B9C60A677AEC034B786570 /* Pods-SQLCodeInputViewTests.debug.xcconfig */,
+				4CE6866CA033B94EA06F7DC8 /* Pods-SQLCodeInputViewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		85BB4ACDB539B01AB658F7B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB48AAF76C32186F1D65CB7D /* Pods_SQLCodeInputView.framework */,
+				6C32C9085A36DEABCAD05641 /* Pods_SQLCodeInputView_SQLCodeInputViewUITests.framework */,
+				11DE9436DBBD161157B5384E /* Pods_SQLCodeInputViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7A617492628277300027A58 /* SQLCodeInputView */ = {
+			isa = PBXGroup;
+			children = (
+				C7A6174A2628277300027A58 /* SQLCodeInputView.h */,
+				C7A6174B2628277300027A58 /* Utils.h */,
+				C7A6174C2628277300027A58 /* imgs */,
+				C7A6174E2628277300027A58 /* SQLBtnsView.h */,
+				C7A6174F2628277300027A58 /* NSBundle+DFBundle.m */,
+				C7A617502628277300027A58 /* SQLInputButton.m */,
+				C7A617512628277300027A58 /* SQLInputView.h */,
+				C7A617522628277300027A58 /* Utils.m */,
+				C7A617532628277300027A58 /* SQLCodeInputView.m */,
+				C7A617542628277300027A58 /* SQLInputButton.h */,
+				C7A617552628277300027A58 /* NSBundle+DFBundle.h */,
+				C7A617562628277300027A58 /* SQLBtnsView.m */,
+				C7A617572628277300027A58 /* SQLInputView.m */,
+			);
+			name = SQLCodeInputView;
+			path = ../../SQLCodeInputView;
+			sourceTree = "<group>";
+		};
+		C7A6174C2628277300027A58 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				C7A6174D2628277300027A58 /* del.png */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
+		C7B4AE582626CDDE00F427F3 = {
+			isa = PBXGroup;
+			children = (
+				C7B4AE632626CDDE00F427F3 /* SQLCodeInputView */,
+				C7B4AE7F2626CDE000F427F3 /* SQLCodeInputViewTests */,
+				C7B4AE8A2626CDE000F427F3 /* SQLCodeInputViewUITests */,
+				C7B4AE622626CDDE00F427F3 /* Products */,
+				329B85E9F4AFC0E42CC92604 /* Pods */,
+				85BB4ACDB539B01AB658F7B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7B4AE622626CDDE00F427F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7B4AE612626CDDE00F427F3 /* SQLCodeInputView.app */,
+				C7B4AE7C2626CDE000F427F3 /* SQLCodeInputViewTests.xctest */,
+				C7B4AE872626CDE000F427F3 /* SQLCodeInputViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7B4AE632626CDDE00F427F3 /* SQLCodeInputView */ = {
+			isa = PBXGroup;
+			children = (
+				C7A617492628277300027A58 /* SQLCodeInputView */,
+				C7B4AE642626CDDE00F427F3 /* AppDelegate.h */,
+				C7B4AE652626CDDE00F427F3 /* AppDelegate.m */,
+				C7B4AE672626CDDE00F427F3 /* SceneDelegate.h */,
+				C7B4AE682626CDDE00F427F3 /* SceneDelegate.m */,
+				C7B4AE6A2626CDDE00F427F3 /* ViewController.h */,
+				C7B4AE6B2626CDDE00F427F3 /* ViewController.m */,
+				C7B4AE6D2626CDDE00F427F3 /* Main.storyboard */,
+				C7B4AE702626CDDF00F427F3 /* Assets.xcassets */,
+				C7B4AE722626CDDF00F427F3 /* LaunchScreen.storyboard */,
+				C7B4AE752626CDDF00F427F3 /* Info.plist */,
+				C7B4AE762626CDDF00F427F3 /* main.m */,
+			);
+			path = SQLCodeInputView;
+			sourceTree = "<group>";
+		};
+		C7B4AE7F2626CDE000F427F3 /* SQLCodeInputViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7B4AE802626CDE000F427F3 /* SQLCodeInputViewTests.m */,
+				C7B4AE822626CDE000F427F3 /* Info.plist */,
+			);
+			path = SQLCodeInputViewTests;
+			sourceTree = "<group>";
+		};
+		C7B4AE8A2626CDE000F427F3 /* SQLCodeInputViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7B4AE8B2626CDE000F427F3 /* SQLCodeInputViewUITests.m */,
+				C7B4AE8D2626CDE000F427F3 /* Info.plist */,
+			);
+			path = SQLCodeInputViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7B4AE602626CDDE00F427F3 /* SQLCodeInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B4AE902626CDE000F427F3 /* Build configuration list for PBXNativeTarget "SQLCodeInputView" */;
+			buildPhases = (
+				E4526E98EB16473EDD206791 /* [CP] Check Pods Manifest.lock */,
+				C7B4AE5D2626CDDE00F427F3 /* Sources */,
+				C7B4AE5E2626CDDE00F427F3 /* Frameworks */,
+				C7B4AE5F2626CDDE00F427F3 /* Resources */,
+				FD15AC74ACE02291F44C39EC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLCodeInputView;
+			productName = SQLCodeInputView;
+			productReference = C7B4AE612626CDDE00F427F3 /* SQLCodeInputView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7B4AE7B2626CDE000F427F3 /* SQLCodeInputViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B4AE932626CDE000F427F3 /* Build configuration list for PBXNativeTarget "SQLCodeInputViewTests" */;
+			buildPhases = (
+				8BE5944778A441E2548E6ACC /* [CP] Check Pods Manifest.lock */,
+				C7B4AE782626CDE000F427F3 /* Sources */,
+				C7B4AE792626CDE000F427F3 /* Frameworks */,
+				C7B4AE7A2626CDE000F427F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7B4AE7E2626CDE000F427F3 /* PBXTargetDependency */,
+			);
+			name = SQLCodeInputViewTests;
+			productName = SQLCodeInputViewTests;
+			productReference = C7B4AE7C2626CDE000F427F3 /* SQLCodeInputViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7B4AE862626CDE000F427F3 /* SQLCodeInputViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B4AE962626CDE000F427F3 /* Build configuration list for PBXNativeTarget "SQLCodeInputViewUITests" */;
+			buildPhases = (
+				2526D9F7D02BD333D04DEAFC /* [CP] Check Pods Manifest.lock */,
+				C7B4AE832626CDE000F427F3 /* Sources */,
+				C7B4AE842626CDE000F427F3 /* Frameworks */,
+				C7B4AE852626CDE000F427F3 /* Resources */,
+				0B418FC92A3BF6C5AC7F0BED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7B4AE892626CDE000F427F3 /* PBXTargetDependency */,
+			);
+			name = SQLCodeInputViewUITests;
+			productName = SQLCodeInputViewUITests;
+			productReference = C7B4AE872626CDE000F427F3 /* SQLCodeInputViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7B4AE592626CDDE00F427F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C7B4AE602626CDDE00F427F3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C7B4AE7B2626CDE000F427F3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C7B4AE602626CDDE00F427F3;
+					};
+					C7B4AE862626CDE000F427F3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C7B4AE602626CDDE00F427F3;
+					};
+				};
+			};
+			buildConfigurationList = C7B4AE5C2626CDDE00F427F3 /* Build configuration list for PBXProject "SQLCodeInputView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7B4AE582626CDDE00F427F3;
+			productRefGroup = C7B4AE622626CDDE00F427F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7B4AE602626CDDE00F427F3 /* SQLCodeInputView */,
+				C7B4AE7B2626CDE000F427F3 /* SQLCodeInputViewTests */,
+				C7B4AE862626CDE000F427F3 /* SQLCodeInputViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7B4AE5F2626CDDE00F427F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B4AE742626CDDF00F427F3 /* LaunchScreen.storyboard in Resources */,
+				C7B4AE712626CDDF00F427F3 /* Assets.xcassets in Resources */,
+				C7B4AE6F2626CDDE00F427F3 /* Main.storyboard in Resources */,
+				C7A617582628277300027A58 /* del.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B4AE7A2626CDE000F427F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B4AE852626CDE000F427F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B418FC92A3BF6C5AC7F0BED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLCodeInputView-SQLCodeInputViewUITests/Pods-SQLCodeInputView-SQLCodeInputViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLCodeInputView-SQLCodeInputViewUITests/Pods-SQLCodeInputView-SQLCodeInputViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SQLCodeInputView-SQLCodeInputViewUITests/Pods-SQLCodeInputView-SQLCodeInputViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2526D9F7D02BD333D04DEAFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQLCodeInputView-SQLCodeInputViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BE5944778A441E2548E6ACC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQLCodeInputViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4526E98EB16473EDD206791 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQLCodeInputView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD15AC74ACE02291F44C39EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLCodeInputView/Pods-SQLCodeInputView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLCodeInputView/Pods-SQLCodeInputView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SQLCodeInputView/Pods-SQLCodeInputView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7B4AE5D2626CDDE00F427F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B4AE6C2626CDDE00F427F3 /* ViewController.m in Sources */,
+				C7B4AE662626CDDE00F427F3 /* AppDelegate.m in Sources */,
+				C7A6175D2628277300027A58 /* SQLBtnsView.m in Sources */,
+				C7B4AE772626CDDF00F427F3 /* main.m in Sources */,
+				C7A6175C2628277300027A58 /* SQLCodeInputView.m in Sources */,
+				C7B4AE692626CDDE00F427F3 /* SceneDelegate.m in Sources */,
+				C7A617592628277300027A58 /* NSBundle+DFBundle.m in Sources */,
+				C7A6175B2628277300027A58 /* Utils.m in Sources */,
+				C7A6175E2628277300027A58 /* SQLInputView.m in Sources */,
+				C7A6175A2628277300027A58 /* SQLInputButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B4AE782626CDE000F427F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B4AE812626CDE000F427F3 /* SQLCodeInputViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B4AE832626CDE000F427F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B4AE8C2626CDE000F427F3 /* SQLCodeInputViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7B4AE7E2626CDE000F427F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7B4AE602626CDDE00F427F3 /* SQLCodeInputView */;
+			targetProxy = C7B4AE7D2626CDE000F427F3 /* PBXContainerItemProxy */;
+		};
+		C7B4AE892626CDE000F427F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7B4AE602626CDDE00F427F3 /* SQLCodeInputView */;
+			targetProxy = C7B4AE882626CDE000F427F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7B4AE6D2626CDDE00F427F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B4AE6E2626CDDE00F427F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7B4AE722626CDDF00F427F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B4AE732626CDDF00F427F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7B4AE8E2626CDE000F427F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7B4AE8F2626CDE000F427F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7B4AE912626CDE000F427F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83337741C9BA976C61AC8DF4 /* Pods-SQLCodeInputView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83P65L9Z7S;
+				INFOPLIST_FILE = SQLCodeInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.SQLCodeInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7B4AE922626CDE000F427F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F7F6C15C2F36603C40282C4 /* Pods-SQLCodeInputView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83P65L9Z7S;
+				INFOPLIST_FILE = SQLCodeInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.SQLCodeInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7B4AE942626CDE000F427F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B9C60A677AEC034B786570 /* Pods-SQLCodeInputViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUYU68XH82;
+				INFOPLIST_FILE = SQLCodeInputViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.SQLCodeInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLCodeInputView.app/SQLCodeInputView";
+			};
+			name = Debug;
+		};
+		C7B4AE952626CDE000F427F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE6866CA033B94EA06F7DC8 /* Pods-SQLCodeInputViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUYU68XH82;
+				INFOPLIST_FILE = SQLCodeInputViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.SQLCodeInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLCodeInputView.app/SQLCodeInputView";
+			};
+			name = Release;
+		};
+		C7B4AE972626CDE000F427F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6293BBC2A12FD1B6FD0845F5 /* Pods-SQLCodeInputView-SQLCodeInputViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUYU68XH82;
+				INFOPLIST_FILE = SQLCodeInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.SQLCodeInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SQLCodeInputView;
+			};
+			name = Debug;
+		};
+		C7B4AE982626CDE000F427F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25FCB4A50DEF2F41E934095A /* Pods-SQLCodeInputView-SQLCodeInputViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUYU68XH82;
+				INFOPLIST_FILE = SQLCodeInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.SQLCodeInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SQLCodeInputView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7B4AE5C2626CDDE00F427F3 /* Build configuration list for PBXProject "SQLCodeInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B4AE8E2626CDE000F427F3 /* Debug */,
+				C7B4AE8F2626CDE000F427F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B4AE902626CDE000F427F3 /* Build configuration list for PBXNativeTarget "SQLCodeInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B4AE912626CDE000F427F3 /* Debug */,
+				C7B4AE922626CDE000F427F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B4AE932626CDE000F427F3 /* Build configuration list for PBXNativeTarget "SQLCodeInputViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B4AE942626CDE000F427F3 /* Debug */,
+				C7B4AE952626CDE000F427F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B4AE962626CDE000F427F3 /* Build configuration list for PBXNativeTarget "SQLCodeInputViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B4AE972626CDE000F427F3 /* Debug */,
+				C7B4AE982626CDE000F427F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7B4AE592626CDDE00F427F3 /* Project object */;
+}
