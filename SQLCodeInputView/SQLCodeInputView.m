@@ -13,6 +13,7 @@
 @interface SQLCodeInputView()<SQLBtnsViewDelegate>{
     int num;
     NSString *labelStr;
+    BOOL isShow16P;
 }
 @property(nonatomic, strong)SQLInputView *inputView;
 @property(nonatomic, strong)SQLBtnsView *btnsView;
@@ -20,10 +21,11 @@
 
 @implementation SQLCodeInputView
 
-- (instancetype)initWithCodeNum:(int)num{
+- (instancetype)initWithCodeNum:(int)num withShow16P:(BOOL)isShow16P{
     self = [super init];
     if (self) {
         self->num = num;
+        self->isShow16P = isShow16P;
     }
     return self;
 }
@@ -31,7 +33,7 @@
 - (void)loadView{
     UIViewController *vc = [Utils getControllerFromView:self];
     self.inputView = [[SQLInputView alloc]initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
-    self.btnsView = [[SQLBtnsView alloc]init];
+    self.btnsView = [[SQLBtnsView alloc]initWithShow16P:self->isShow16P];
     [self addSubview:self.inputView];
     [vc.view addSubview:self.btnsView];
     [self.btnsView loadView];
@@ -51,6 +53,7 @@
 }
 
 - (void)setShow16P:(BOOL)isShow16P{
+    self->isShow16P = isShow16P;
     [self.btnsView setShow16P:isShow16P];
 }
 
