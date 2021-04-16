@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SQLCodeInputView : UIView
 @property (nonatomic, weak) id<SQLCodeInputViewDelegate> delegate;
-- (instancetype)initWithCodeNum:(int)num;
+- (instancetype)initWithCodeNum:(int)num withShow16P:(BOOL)isShow16P;
 - (void)loadView;//addSubview 后调用
 - (void)setShow16P:(BOOL)isShow16P;
 - (void)reloadCodeView;

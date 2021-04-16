@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, weak) id<SQLBtnsViewDelegate> delegate;
 @property(nonatomic, assign) BOOL isShow;
 @property(nonatomic, assign) BOOL isShow16P;
+- (instancetype)initWithShow16P:(BOOL)isShow16P;
 - (void)setShow16P:(BOOL)isShow16P;
 - (void)setShow:(BOOL)isShow;
 - (void)loadView;
