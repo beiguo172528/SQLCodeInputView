@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SQLCodeInputView"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "类似于验证码输入"
 
   # This description is used to generate tags and improve search results.
@@ -108,7 +108,7 @@ Pod::Spec.new do |spec|
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
   spec.resource_bundles = {
-    "DFDraw" => ["SQLCodeInputView/**/*.{xib,png,xcassets}"]
+    "SQLCodeInputView" => ["SQLCodeInputView/**/*.{xib,png,xcassets}"]
   }
 
 
