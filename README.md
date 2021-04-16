@@ -5,13 +5,13 @@
 二、使用步骤：
 
 1.pod
-pod 'Masonry'
+pod 'SQLCodeInputView'
 
 2.import
 #import "SQLCodeInputView.h"
 
 3.一共有几为
-self.inputView = [[SQLCodeInputView alloc]initWithCodeNum:9];
+self.inputView = [[SQLCodeInputView alloc]initWithCodeNum:9 withShow16P:true];
 
 4.设置frame
 self.inputView.frame = CGRectMake(0, 100, self.view.frame.size.width, 40);
