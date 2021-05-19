@@ -20,6 +20,8 @@
 - (void)setLabelNum:(int)num{
     self->num = num;
     self->labels = [NSMutableArray array];
+    NSLog(@"subviews:%@",self.subviews);
+    [self.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
     [self createLabels];
 }
 

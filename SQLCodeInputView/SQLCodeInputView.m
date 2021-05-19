@@ -81,4 +81,15 @@
     [self performSelector:@selector(startInput) withObject:nil afterDelay:0.5];
 }
 
+- (void)setCodeNum:(int)num{
+    [self.btnsView setShow:false];
+    [self.inputView setLabelNum:num];
+    [self.btnsView setShow:true];
+}
+
+- (void)setCodeNum:(int)num withShow16P:(BOOL)isShow16P{
+    [self setShow16P:isShow16P];
+    [self.inputView setLabelNum:num];
+}
+
 @end

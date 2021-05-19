@@ -10,6 +10,7 @@
 
 @interface ViewController ()<SQLCodeInputViewDelegate>{
     BOOL isShow16p;
+    int codeNum;
 }
 @property (nonatomic, strong) SQLCodeInputView *inputView;
 @end
@@ -18,9 +19,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self->isShow16p = false;
+    self->isShow16p = true;
+    self->codeNum = 9;
     self.view.backgroundColor = [UIColor colorWithRed:69.0f/255.0 green:202.0f/255.0 blue:239.0f/255.0 alpha:0.5];
-    self.inputView = [[SQLCodeInputView alloc]initWithCodeNum:9 withShow16P:self->isShow16p];
+    self.inputView = [[SQLCodeInputView alloc]initWithCodeNum:self->codeNum withShow16P:self->isShow16p];
     self.inputView.frame = CGRectMake(0, 100, self.view.frame.size.width, 40);
     [self.view addSubview:self.inputView];
     [self.inputView loadView];
@@ -28,15 +30,10 @@
 }
 
 - (IBAction)onCLickBtn:(UIButton*)sender {
-    [self.inputView setShow16P:!self->isShow16p];
+    self->codeNum = self->codeNum == 9 ? 5 : 9;
+    [self.inputView setCodeNum:self->codeNum withShow16P:!self->isShow16p];
+//    [self.inputView setShow16P:!self->isShow16p];
     self->isShow16p = !self->isShow16p;
-//    if (sender.tag == 100) {
-//        [self.btnsView setShow:!self.btnsView.isShow];
-//    }
-//    else {
-//        [self.btnsView setShow16P:!self.btnsView.isShow16P];
-//    }
-    
 }
 
 - (void)getCodeString:(NSString *)str{
