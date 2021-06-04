@@ -92,4 +92,10 @@
     [self.inputView setLabelNum:num];
 }
 
+- (void)setShow:(BOOL)isShow{
+    if (self.btnsView) {
+        [self.btnsView setShow:isShow];
+    }
+}
+
 @end
