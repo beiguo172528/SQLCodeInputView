@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SQLCodeInputView"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "类似于验证码输入"
 
   # This description is used to generate tags and improve search results.
