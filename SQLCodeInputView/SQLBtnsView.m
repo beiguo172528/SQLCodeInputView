@@ -61,9 +61,9 @@
                     [btn setTitle:arr[i*3 + j] forState:UIControlStateNormal];
                 }
                 else{
-//                    NSBundle *bundle = [NSBundle bundleWithBundleName:@"SQLCodeInputView" podName:@"SQLCodeInputView"];
-//                    [btn setImage:[UIImage imageNamed:@"del.png" inBundle:bundle compatibleWithTraitCollection:nil] forState:UIControlStateNormal];
-                    [btn setImage:[UIImage imageNamed:@"del.png" ] forState:UIControlStateNormal];
+                    NSBundle *bundle = [NSBundle bundleWithBundleName:@"SQLCodeInputView" podName:@"SQLCodeInputView"];
+                    [btn setImage:[UIImage imageNamed:@"del.png" inBundle:bundle compatibleWithTraitCollection:nil] forState:UIControlStateNormal];
+//                    [btn setImage:[UIImage imageNamed:@"del.png" ] forState:UIControlStateNormal];
                 }
                 if ((i*3 + j) < 6 && self.isShow16P) {
                     [btn setTitleColor:[UIColor colorWithRed:69.0f/255.0f green:237.0f/255.0f blue:216.0f/255.0f alpha:1.0f]];

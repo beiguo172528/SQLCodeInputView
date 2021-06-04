@@ -22,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)loadView;//addSubview 后调用
 - (void)setShow16P:(BOOL)isShow16P;
 - (void)reloadCodeView;
+- (void)setShow:(BOOL)isShow;
 @end
 
 NS_ASSUME_NONNULL_END
